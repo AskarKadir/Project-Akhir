@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class Form1
+    partial class HalamanUtama
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,18 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
+            tombolDataMaster = new Button();
+            tombolGrafik = new Button();
             SuspendLayout();
             // 
-            // Form1
+            // tombolDataMaster
+            // 
+            tombolDataMaster.Location = new Point(228, 218);
+            tombolDataMaster.Name = "tombolDataMaster";
+            tombolDataMaster.Size = new Size(170, 170);
+            tombolDataMaster.TabIndex = 0;
+            tombolDataMaster.Text = "Data Master";
+            tombolDataMaster.UseVisualStyleBackColor = true;
+            // 
+            // tombolGrafik
+            // 
+            tombolGrafik.Location = new Point(463, 218);
+            tombolGrafik.Name = "tombolGrafik";
+            tombolGrafik.Size = new Size(170, 170);
+            tombolGrafik.TabIndex = 1;
+            tombolGrafik.Text = "Grafik";
+            tombolGrafik.UseVisualStyleBackColor = true;
+            // 
+            // HalamanUtama
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(877, 521);
-            Name = "Form1";
-            Text = "Form1";
+            ClientSize = new Size(884, 561);
+            Controls.Add(tombolGrafik);
+            Controls.Add(tombolDataMaster);
+            Name = "HalamanUtama";
+            Text = "Halaman Utama";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Button tombolDataMaster;
+        private Button tombolGrafik;
     }
 }
