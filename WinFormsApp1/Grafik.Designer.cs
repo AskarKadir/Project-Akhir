@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class DataMaster
+    partial class DtMaster
     {
         /// <summary>
         /// Required designer variable.

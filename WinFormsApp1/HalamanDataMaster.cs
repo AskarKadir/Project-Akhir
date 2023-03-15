@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    public partial class DtMaster : Form
+    public partial class HalamanDataMaster : Form
     {
-        public DtMaster()
+        public HalamanDataMaster()
         {
             InitializeComponent();
         }
