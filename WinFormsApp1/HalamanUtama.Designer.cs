@@ -30,6 +30,7 @@
         {
             tombolDataMaster = new Button();
             tombolGrafik = new Button();
+            tombolKeluar = new Button();
             SuspendLayout();
             // 
             // tombolDataMaster
@@ -50,11 +51,21 @@
             tombolGrafik.Text = "Grafik";
             tombolGrafik.UseVisualStyleBackColor = true;
             // 
+            // tombolKeluar
+            // 
+            tombolKeluar.Location = new Point(797, 12);
+            tombolKeluar.Name = "tombolKeluar";
+            tombolKeluar.Size = new Size(75, 23);
+            tombolKeluar.TabIndex = 2;
+            tombolKeluar.Text = "Keluar";
+            tombolKeluar.UseVisualStyleBackColor = true;
+            // 
             // HalamanUtama
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 561);
+            Controls.Add(tombolKeluar);
             Controls.Add(tombolGrafik);
             Controls.Add(tombolDataMaster);
             Name = "HalamanUtama";
@@ -66,5 +77,6 @@
 
         private Button tombolDataMaster;
         private Button tombolGrafik;
+        private Button tombolKeluar;
     }
 }
